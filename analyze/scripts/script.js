@@ -9,7 +9,7 @@ var imgsource = document.getElementById("image");
 var figcap = document.querySelector("figcaption");
 
 //Function to display the first picture
-function pic1 {
+function pic1() {
     imgsource.src = "images/trunk-bay.jpg";
     imgsource.alt = "Elevated view of Trunk Bay beach on St. John";
     figElement.style.display = "block";
@@ -17,7 +17,7 @@ function pic1 {
 }
 
 //Function to display the second picture
-function pic2 {
+function pic2() {
     imgsource.src = "images/sanjuan.jpg";
     imgsource.alt = "Elevated view of San Juan coast";
     figElement.style.display = "block";
@@ -25,7 +25,7 @@ function pic2 {
 }
 
 //Function to diplay third picture
-function pic3 {
+function pic3() {
     imgsource.src = "images/curacao.jpg";
     imgsource.alt = "The blue waters of Curacao";
     figElement.style.display = "block";
